@@ -1,0 +1,276 @@
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    margin: 200px auto 100px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #444;
+}
+
+
+/*ヘッダー*/
+header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    letter-spacing: 3rem;
+    text-indent: 1rem;
+}
+
+header div i {
+    cursor: pointer;
+}
+
+header a:link,
+header a:visited,
+header a:active{
+   color: #444;
+}
+
+@media screen and (max-width: 775px) { 
+    header div {
+        letter-spacing: 1rem;
+        text-indent: 1rem;
+    }
+    
+}
+/*スキル*/
+main .skills h2{
+    font-size: 1rem;
+    color: #7B7B7B;
+}
+
+#skilljump {
+    padding: 10%;
+}
+.skills {
+    margin: 10% auto 0;
+}
+
+.skills h2 {
+    box-sizing: border-box;
+    width: 11rem;
+    padding-right: 5rem;
+    line-height: 10rem;
+}
+
+.web,
+.qualification {
+    display: flex;
+    justify-content: center;
+}
+
+
+.skills #html,
+.skills #javascript,
+.skills #adbe,
+.skills #baby,
+.skills #care,
+.skills #nothing
+{
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;;
+    width: 10rem;
+    height: 10rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.skills #nothing {
+    border: none;
+}
+
+.skills i {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.skills #adbe i {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+main .skills  p {
+    position: absolute;
+    color: #333;
+    text-align: center;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+}
+
+main .skills #adbe p {
+    position: absolute;
+    color: #333;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 775px) { 
+    .skills {
+        margin: 10%  0;
+    }
+    
+    .skills h2 {
+        padding: 0 1rem;
+        font-size: 14px;
+        box-sizing: border-box;
+        line-height: 1;
+    }
+    #skilljump {
+        padding: 0%;
+    }    
+        
+    .skills div {
+        width: 50%;
+    }  
+}
+
+/*仕事歴*/
+.work {
+    display: flex;
+    justify-content: center;
+  }
+
+#workjump {
+    padding: 10%;
+}
+
+#prev,
+#next {
+    cursor: pointer;
+    font-size: 50px;
+    color: #7B7B7B;
+    line-height: 300px;
+}
+
+#leftsub img,
+#rightsub img{
+    width: 200;
+    height: 100px;
+    margin-top: 125px ;
+}
+
+#mainvisual img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 775px) { 
+    .work {
+        clear: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #workjump {
+        margin: 0%;
+    }
+    
+    #mainvisual img {
+        width: 250px;
+        height: 150px;
+    }
+
+    #leftsub img,
+    #rightsub img{
+        display: none;
+    }
+
+    #prev,
+    #next {
+        cursor: pointer;
+        font-size: 50px;
+        line-height: 150px;
+        color: #7B7B7B;
+    }
+
+    #nothing {
+        display: none;
+    }
+
+}
+
+
+/*自己紹介*/
+.introduce {
+    font-size: 1rem;
+    color: #7B7B7B;
+    display: flex;
+    justify-content: center;
+}
+
+#introducejump {
+    padding: 10%;
+}
+
+.introduce img {
+    border: 1px solid #a9a9a9;
+    border-radius: 50%;
+    margin-right: 5rem;
+    padding: 0.3rem;
+}
+
+@media screen and (max-width: 775px) { 
+    .introduce {
+        font-size: 1rem;
+        color: #7B7B7B;
+        display: initial;
+    }
+
+    .introduce img {
+        border: 1px solid #a9a9a9;
+        border-radius: 50%;
+        margin: 0 auto ;
+        display: block;
+        padding: 0.3rem;
+    }
+
+    .introduce p {
+        margin: 0;
+    }
+    
+}
+
+/*問い合わせ*/
+.contact {
+    text-align: center;
+    color: #7B7B7B;
+}
+
+#contactjump {
+    position: relative;
+    padding: 10%;
+}
+
+.contact i{
+    position: absolute;
+}
+
+.contact p {
+    padding-top: rem;
+}
+
+
+/*フッター*/
+footer {
+    color: #7B7B7B;
+    text-align: right;
+}
+@media screen and (max-width: 775px) { 
+    footer {
+        text-align: center;
+    }
+}   
